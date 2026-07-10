@@ -15,14 +15,14 @@
 // ----- Left Motor (Final Pins) -----
 #define L_R_EN   23
 #define L_L_EN   4
-#define L_RPWM   25
-#define L_LPWM   33  // Safe PWM pin
+#define L_LPWM   25
+#define L_RPWM   33  // Safe PWM pin
 
 // ----- Right Motor (Final Pins) -----
 #define R_R_EN   18
 #define R_L_EN   19
-#define R_RPWM   21
-#define R_LPWM   22
+#define R_LPWM   21
+#define R_RPWM   22
 
 // ----- Buttons -----
 #define BTN_CAL  15
