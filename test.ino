@@ -6,7 +6,7 @@
 #define L_R_EN 23
 #define L_L_EN 4
 #define L_RPWM 25
-#define L_LPWM 33
+#define L_LPWM 32
 
 // ----- Right Motor (SWAPPED PINS) -----
 #define R_R_EN 18
@@ -14,7 +14,7 @@
 #define R_RPWM 21
 #define R_LPWM 22
 
-#define MAX_SPEED 255  // 100% Full Speed
+#define MAX_SPEED 100  // 100% Full Speed
 
 void setup() {
   // 1. Turn on BTS7960 Logic
