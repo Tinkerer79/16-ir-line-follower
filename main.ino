@@ -5,7 +5,7 @@
 #define L_R_EN 23
 #define L_L_EN 4
 #define L_RPWM 25
-#define L_LPWM 33
+#define L_LPWM 32
 
 // Motor Driver - RIGHT (Now using former Left pins)
 #define R_R_EN 18
@@ -23,7 +23,7 @@
 
 // Buttons
 #define CALIBRATE_BTN 15  // Safe boot pin
-#define START_BTN 32      // Safe boot pin (after erasing flash)
+#define START_BTN 33      // Safe boot pin (after erasing flash)
 
 // ================= ROBOT PARAMETERS =================
 const int NUM_SENSORS = 16;
